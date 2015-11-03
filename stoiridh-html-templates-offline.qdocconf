@@ -1,0 +1,16 @@
+include(stoiridh-html-header.qdocconf)
+include(stoiridh-html-footer.qdocconf)
+
+HTML.stylesheets  = template/style/offline.css
+HTML.extraimages += \
+    template/images/arrow_bc.png \
+    template/images/bg_content.png \
+    template/images/ico_home.png \
+    template/images/ico_out.png
+
+qhp.extraFiles += \
+    style/offline.css \
+    images/arrow_bc.png \
+    images/bg_content.png \
+    images/ico_home.png \
+    images/ico_out.png
