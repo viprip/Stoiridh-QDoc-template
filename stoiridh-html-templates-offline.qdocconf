@@ -1,5 +1,6 @@
 include(stoiridh-html-header.qdocconf)
 include(stoiridh-html-footer.qdocconf)
+include(stoiridh-cpp-defines.qdocconf)
 
 HTML.stylesheets  = template/style/offline.css
 HTML.extraimages += \
